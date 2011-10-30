@@ -1,0 +1,9 @@
+Demo project I put together for Entity Framework Code First 4.1.
+The sample includes:
+	- Generating DB from POCO's
+	- Fluent Configuration examples
+	- Attribute Configuration examples
+	- Relationship examples (1 -> Many, Many -> Many)
+	- New features coming in EF vNext
+		- Enums
+		- Spatial Data Types
