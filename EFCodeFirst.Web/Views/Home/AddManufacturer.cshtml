@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Add Manufacturer";
+}
+@using EFCodeFirst.Models
+@model EFCodeFirst.Models.Manufacturer
+
+@section featured {
+<section class="featured">
+    <div class="content-wrapper">
+        <hgroup class="title">
+            <h1>@ViewBag.Title.</h1>
+            <h2>@ViewBag.Message</h2>
+        </hgroup>
+        <p>
+        </p>
+    </div>
+</section>
+}
+
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@Html.ValidationSummary(true, "Add was unsuccessful. Please correct the errors and try again.")
+
+@using (Html.BeginForm()) {
+    <fieldset>
+        <legend>New Manufacturer</legend>
+        <ol>
+            <li>
+                @Html.LabelFor(m => m.Name)
+                @Html.TextBoxFor(m => m.Name)
+                @Html.ValidationMessageFor(m => m.Name)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Country)
+                @Html.TextBoxFor(m => m.Country)
+                @Html.ValidationMessageFor(m => m.Country)
+            </li>
+        </ol>
+        <input type="submit" value="Add Manufacturer" title="Add Manufacturer" />
+    </fieldset>
+}
+

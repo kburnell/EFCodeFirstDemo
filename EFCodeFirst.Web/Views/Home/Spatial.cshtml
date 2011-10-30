@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@using EFCodeFirst.Models
+@using EFCodeFirst.Web.Models
+@model IEnumerable<SpatialModel>
+
+@section featured {
+<section class="featured">
+    <div class="content-wrapper">
+        <hgroup class="title">
+            <h1>@ViewBag.Title.</h1>
+            <h2>@ViewBag.Message</h2>
+        </hgroup>
+        <p>
+        </p>
+    </div>
+</section>
+}
+
+
+<h3>Spatial</h3>
+<ol>
+    @foreach (SpatialModel s in @Model) {
+        <li>@s.SpatialText</li>
+    }
+</ol>
+
+

@@ -1,0 +1,6 @@
+D:\Dev\Presentations\EFCodeFirst\EFCodeFirst\bin\Debug\EFCodeFirst.dll.config
+D:\Dev\Presentations\EFCodeFirst\EFCodeFirst\bin\Debug\EFCodeFirst.dll
+D:\Dev\Presentations\EFCodeFirst\EFCodeFirst\bin\Debug\EFCodeFirst.pdb
+D:\Dev\Presentations\EFCodeFirst\EFCodeFirst\obj\Debug\EFCodeFirst.csprojResolveAssemblyReference.cache
+D:\Dev\Presentations\EFCodeFirst\EFCodeFirst\obj\Debug\EFCodeFirst.dll
+D:\Dev\Presentations\EFCodeFirst\EFCodeFirst\obj\Debug\EFCodeFirst.pdb

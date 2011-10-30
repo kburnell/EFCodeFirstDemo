@@ -1,0 +1,8 @@
+D:\Dev\Presentations\EFCodeFirst\EFCodeFirst.Tests.Integration\bin\Debug\EFCodeFirst.Tests.Integration.dll.config
+D:\Dev\Presentations\EFCodeFirst\EFCodeFirst.Tests.Integration\bin\Debug\EFCodeFirst.Tests.Integration.dll
+D:\Dev\Presentations\EFCodeFirst\EFCodeFirst.Tests.Integration\bin\Debug\EFCodeFirst.Tests.Integration.pdb
+D:\Dev\Presentations\EFCodeFirst\EFCodeFirst.Tests.Integration\bin\Debug\EFCodeFirst.dll
+D:\Dev\Presentations\EFCodeFirst\EFCodeFirst.Tests.Integration\bin\Debug\EFCodeFirst.pdb
+D:\Dev\Presentations\EFCodeFirst\EFCodeFirst.Tests.Integration\obj\Debug\EFCodeFirst.Tests.Integration.csprojResolveAssemblyReference.cache
+D:\Dev\Presentations\EFCodeFirst\EFCodeFirst.Tests.Integration\obj\Debug\EFCodeFirst.Tests.Integration.dll
+D:\Dev\Presentations\EFCodeFirst\EFCodeFirst.Tests.Integration\obj\Debug\EFCodeFirst.Tests.Integration.pdb

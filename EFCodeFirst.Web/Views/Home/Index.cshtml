@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@using EFCodeFirst.Models
+@using EFCodeFirst.Web.Models
+@using EFCodeFirst.Web.ViewModels
+@model  EFCodeFirstViewModel
+
+@section featured {
+<section class="featured">
+    <div class="content-wrapper">
+        <hgroup class="title">
+            <h1>@ViewBag.Title.</h1>
+            <h2>@ViewBag.Message</h2>
+        </hgroup>
+        <p>
+        </p>
+    </div>
+</section>
+}
+
+
+<h3>Manufacturers</h3>
+@Html.ActionLink("Add Manufacturer", "AddManufacturer")
+<ol>
+    @foreach (Manufacturer m in @Model.Manufacturers) {
+        <li>@string.Format("{0} ({1})", m.Name, m.Country)</li>
+    }
+</ol>
+
+<h3>Models</h3>
+<ol>
+    @foreach (Manufacturer m in @Model.Manufacturers) {
+        foreach (Model model in m.Models) {
+            <li>@string.Format("{0} {1} {2} [{4} Engine] ({3})",model.Year, m.Name, model.Name, model.BasePrice.ToString("c"), model.EngineLocation)</li>
+            <ul>
+                @foreach (Engine e in model.AvailableEngines) {
+                    <li>@string.Format("{0} ({1} bhp)", e.Name, e.BreakHorsepower)</li>
+                }
+            </ul>                                                                          
+        }
+    }
+</ol>
+
+<h3>Spatial</h3>
+<ol>
+    @foreach (SpatialModel s in @Model.Spatials) {
+        <li>@s.SpatialText</li>
+    }
+</ol>
+
+
