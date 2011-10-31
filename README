@@ -7,3 +7,7 @@ The sample includes:
 	- New features coming in EF vNext
 		- Enums
 		- Spatial Data Types
+		
+		
+*** Requires Entity Framework June 2011 CTP (EF_JUNE_2011_CTP.msi)
+		http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=26660
